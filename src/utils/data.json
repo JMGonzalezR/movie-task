@@ -1,0 +1,17 @@
+{
+    "headerMovieInfo":{
+        "image": "https://a.icons8.com/sXXfraeX/D412k0/bitmap.png",
+        "description": "Cras ultrices rutrum dapibus. Ut fermentum maximus sem sit amet euismod. Donec eu nisl vel turpis faucibus vestibulum. Sed leo sem, volutpat eu placerat at, blandit sed sapien. Cras bibendum ante vel tincidunt semper. Fusce ut nibh porta, egestas urna id, egestas nisl. Suspendisse rutrum dor",
+        "metadata":{
+            "rottenScore": "64%",
+            "rottenIcon": "https://a.icons8.com/sXXfraeX/siiY5E/bitmap.png",
+            "ageRange": "14+",
+            "ageRangeIcon":"https://a.icons8.com/sXXfraeX/ZQKzHr/bitmap.png",
+            "duration": "1 hr 36 min",
+            "year": "2016",
+            "clasificationIcon": "https://a.icons8.com/sXXfraeX/rsZNny/bitmap.png",
+            "qualityIcon": "https://a.icons8.com/sXXfraeX/wrX7yp/bitmap.png"
+        },
+        "price":"$14.99"
+    }
+}

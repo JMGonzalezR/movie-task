@@ -1,33 +1,80 @@
-.App {
-  text-align: center;
+.App{
+  /*font-family: "Source Sans Pro";*/
+  /*font-weight: 600;*/
+  
+}
+.body-app{
+  background-image: url("https://a.icons8.com/sXXfraeX/h8RrTL/background_dark.png")
+}
+.header-image {
+    height: auto;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 5;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.header-data{
+  top: 0;
+  width: 40%;
+  height: 130%;
+  left: 0;
+  padding-left: 15%;
+  z-index: 10;
+  padding-top: 12vw;
+  position: absolute;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header-metadata{
+    display:flex;
+    flex-direction: row;
+    font-size: 1.1vw;
+    font-family: "SFUIDisplay-Regular";
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.26px;
 }
 
-.App-link {
-  color: #61dafb;
+.header-metadata > div{
+  padding-right: 10px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-description{
+  padding-top: 10px;
+  font-size: 1.4vw;
+}
+
+.header-actions{
+  padding-top: 20px;
+}
+
+.header-actions > button{
+    width:7vw;
+    height: 4vw;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background: #4d4d4d;
+    margin-right: 10px;
+    font-size: 1
+}
+
+.header-actions > button:hover{
+    background: #fff; 
+    color: #4d4d4d;
+
+
+}
+
+.slider-category{
+  padding-top: 10px;
+}
+
+.flexbox{
+  display: flex
+}
+
+.row {
+  flex-direction: row
 }
