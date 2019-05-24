@@ -1,0 +1,43 @@
+.slider {
+  display: flex;
+  position: relative;
+}
+.slider__container {
+  display: flex;
+  padding: 0 55px;
+  transition: transform 300ms ease 100ms;
+  z-index: 3;
+  width: 100%;
+}
+.slider:not(.slider--open) .item:hover .show-details-button {
+  opacity: 1;
+}
+.slider:not(.slider--open) .item:hover {
+  transform: scale(1.5) !important;
+}
+.slider:not(.slider--open):hover .item {
+  transform: translateX(-25%);
+}
+.slider:not(.slider--open) .item:hover ~ .item {
+  transform: translateX(25%);
+}
+
+.slider:not(.slider--open):hover .item-movie-title {
+  transform: translateX(-25%);
+}
+.slider:not(.slider--open) .item-movie-title:hover ~ .item-movie-title {
+  transform: translateX(25%);
+}
+
+.slider:not(.slider--open) .item-actors >img:hover {
+  transform: scale(1.5) !important;
+  transition: transform 300ms ease 100ms;
+  z-index: 10;
+}
+
+.slider-Title{
+  padding-left: 4vw;
+  padding-bottom: 10px;
+  font-size: 1.5vw;
+  opacity: 0.4;
+}

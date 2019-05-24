@@ -22,19 +22,54 @@ class HeaderMovie extends React.Component {
         return(
             <div className={classes.headerImage}>
                 <img alt="header" src={data.image} className="header-image"/>  
-                <div className="header-data">
+                <div className="header-data flexbox row">
                     
-                    <div className={classes.sideMenu}>
-
+                    <div className="sidemenu">
+                        <div className="menu-section">
+                            <div className="menu-item">
+                                Menu Item
+                            </div>
+                            <div className="menu-subitem">
+                                sub item
+                            </div>
+                        </div>
+                        <div className="menu-section">
+                            <div className="menu-item">
+                                Menu Item
+                            </div>
+                            <div className="menu-subitem">
+                                sub item
+                            </div>
+                            <div className="menu-subitem">
+                                sub item
+                            </div>
+                        </div>
+                        <div className="menu-section">
+                            <div className="menu-item">
+                                Menu Item
+                            </div>
+                            <div className="menu-subitem">
+                                sub item
+                            </div>
+                            <div className="menu-subitem">
+                                sub item
+                            </div>
+                            <div className="menu-subitem">
+                                sub item
+                            </div>
+                            <div className="menu-subitem">
+                                sub item
+                            </div>
+                        </div>
                     </div>
                     <div className="header-content">
                         <div className="header-metadata">
                             <div className="flexbox row">
-                                <img alt="rotten tomatos" src={data.metadata.rottenIcon}/>
+                                <img alt="rotten tomatos" className="header-icon" src={data.metadata.rottenIcon}/>
                                 <div>{data.metadata.rottenScore}</div>
                             </div>
                             <div className="flexbox row">
-                                <img alt="age" src={data.metadata.ageRangeIcon}/>
+                                <img alt="age" src={data.metadata.ageRangeIcon} className="header-icon"/>
                                 <div>{data.metadata.ageRange}</div>
                             </div>
                             <div>
@@ -44,20 +79,32 @@ class HeaderMovie extends React.Component {
                                 {data.metadata.year}
                             </div>
                             <div>
-                                <img alt="clasification" src={data.metadata.clasificationIcon}/>
+                                <img alt="clasification" src={data.metadata.clasificationIcon} className="header-icon"/>
                             </div>
                             <div>
-                                <img alt="quality" src={data.metadata.qualityIcon}/>
+                                <img alt="quality" src={data.metadata.qualityIcon} className="header-icon"/>
                             </div>
                         </div>
                         <div className="header-description">
                             {data.description}
                         </div>
-                        <div className="header-actions">
-                                <button>{data.price}</button>
-                                <button>{data.price}</button>
-                                <button>{data.price}</button>
-                                <button>{data.price}</button>
+                        <div className="header-actions flexbox row">
+                                <div >
+                                    <button className="header-button">{data.price}</button>
+                                    <div className="header-button-title">Title</div>
+                                </div>
+                                <div >
+                                    <button className="header-button">{data.price}</button>
+                                    <div className="header-button-title">Title</div>
+                                </div>
+                                <div >
+                                    <button className="header-button">{data.price}</button>
+                                    <div className="header-button-title">Title</div>
+                                </div>
+                                <div >
+                                    <button className="header-button">{data.price}</button>
+                                    <div className="header-button-title">Title</div>
+                                </div>
                         </div>
                     </div>
                 </div>

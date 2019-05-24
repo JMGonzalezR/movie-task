@@ -4,7 +4,9 @@
   
 }
 .body-app{
-  background-image: url("https://a.icons8.com/sXXfraeX/h8RrTL/background_dark.png")
+  background-image: url("https://a.icons8.com/sXXfraeX/h8RrTL/background_dark.png");
+  background-color: #000;
+  color: #fff;
 }
 .header-image {
     height: auto;
@@ -16,10 +18,9 @@
 
 .header-data{
   top: 0;
-  width: 40%;
-  height: 130%;
+  width: 42vw;
   left: 0;
-  padding-left: 15%;
+  padding-left: 17vw;
   z-index: 10;
   padding-top: 12vw;
   position: absolute;
@@ -30,43 +31,87 @@
     display:flex;
     flex-direction: row;
     font-size: 1.1vw;
-    font-family: "SFUIDisplay-Regular";
-    font-weight: 400;
+    /*font-family: "SFUIDisplay-Regular";*/
+    /*font-weight: 400;
     line-height: 32px;
-    letter-spacing: 0.26px;
+    letter-spacing: 0.26px;*/
 }
 
 .header-metadata > div{
-  padding-right: 10px
+  padding-right: 1vw;
+  align-items: center;
 }
 
 .header-description{
-  padding-top: 10px;
+  padding-top: 1vw;
   font-size: 1.4vw;
 }
 
 .header-actions{
-  padding-top: 20px;
+  padding-top: 3vw;
 }
 
-.header-actions > button{
+.header-actions > div{
+    text-align: center;
+    margin-right: 1.5vw;
+    cursor: pointer;
+
+}
+
+.header-button{
     width:7vw;
     height: 4vw;
-    border-radius: 5px;
+    border-radius: 4px;
     border: none;
     color: #fff;
     background: #4d4d4d;
-    margin-right: 10px;
-    font-size: 1
+    font-size: 1.3vw;
+    transition: transform 300ms ease 100ms;
+    cursor: pointer;
 }
 
-.header-actions > button:hover{
+.header-button-title{
+  font-size: 1vw;
+  opacity: 0.4;
+}
+
+.header-actions > div:hover >button {
     background: #fff; 
     color: #4d4d4d;
-
-
+    transform: scale(1.2) !important;
 }
 
+.header-actions > div:hover >.header-button-title {
+  opacity: 1;
+  transform: scale(1.2) !important;
+  
+}
+
+.header-icon{
+  height: 1vw;
+}
+
+.sidemenu{
+  padding-right: 3vw;
+  
+}
+
+.menu-section{
+  width:5vw;
+  text-align: right;
+  margin-bottom: 2vw;
+}
+
+.menu-item{
+  font-size: 1vw;
+  margin-bottom: 0.8vw;
+}
+
+.menu-subitem{
+  font-size: 0.8vw;
+  opacity: 0.4;
+  margin-bottom: 0.5vw;
+}
 .slider-category{
   padding-top: 10px;
 }
@@ -77,4 +122,35 @@
 
 .row {
   flex-direction: row
+}
+
+.column {
+  flex-direction: column
+}
+
+.footer{
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-bottom: 50px
+}
+
+
+.footer-row > div:last-child{
+    padding-left: 1.5vw;
+    width: 22.5vw;
+    opacity: 0.4;
+}
+
+.footer-section{
+  margin-right: 5vw;
+  font-size: 1vw;
+}
+.footer-row{
+  padding-bottom: 15px
+}
+
+.line-divider{
+  border: 1px solid #fff;
+  opacity: 0.1;
+  margin-bottom: 40px 
 }

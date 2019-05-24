@@ -13,5 +13,164 @@
             "qualityIcon": "https://a.icons8.com/sXXfraeX/wrX7yp/bitmap.png"
         },
         "price":"$14.99"
-    }
+    },
+    "movies":[
+          {
+            "id": 1,
+            "image": "https://a.icons8.com/sXXfraeX/IhbSTa/bitmap.png",
+            "imageBg": "/images/slide1b.webp",
+            "title": "1983"
+          },
+          {
+            "id": 2,
+            "image": "https://a.icons8.com/sXXfraeX/q2lsqo/bitmap.png",
+            "imageBg": "/images/slide2b.webp",
+            "title": "Russian doll"
+          },
+          {
+            "id": 3,
+            "image": "https://a.icons8.com/sXXfraeX/u3iS7U/bitmap.png",
+            "imageBg": "/images/slide3b.webp",
+            "title": "The rain"
+          },
+          {
+            "id": 4,
+            "image": "https://a.icons8.com/sXXfraeX/Lo8wcU/bitmap.png",
+            "imageBg": "/images/slide4b.webp",
+            "title": "Sex education"
+          },
+          {
+            "id": 5,
+            "image": "https://a.icons8.com/sXXfraeX/hEXMzQ/bitmap.png",
+            "imageBg": "/images/slide5b.webp",
+            "title": "Elite"
+          },
+          {
+            "id": 6,
+            "image": "https://a.icons8.com/sXXfraeX/NZOHD7/bitmap.png",
+            "imageBg": "/images/slide6b.webp",
+            "title": "Black mirror"
+          },
+          {
+            "id": 7,
+            "image": "https://a.icons8.com/sXXfraeX/ianUEO/bitmap.png",
+            "imageBg": "/images/slide6b.webp",
+            "title": "Black mirror"
+          },
+          {
+            "id": 8,
+            "image": "https://a.icons8.com/sXXfraeX/IOB6gp/bitmap.png",
+            "imageBg": "/images/slide6b.webp",
+            "title": "Black mirror"
+          },
+          {
+            "id": 9,
+            "image": "https://a.icons8.com/sXXfraeX/MVFHmb/bitmap.png",
+            "imageBg": "/images/slide6b.webp",
+            "title": "Black mirror"
+          },
+          {
+            "id": 10,
+            "image": "https://a.icons8.com/sXXfraeX/biEREh/bitmap.png",
+            "imageBg": "/images/slide6b.webp",
+            "title": "Black mirror"
+          },
+          {
+            "id": 11,
+            "image": "https://a.icons8.com/sXXfraeX/biEREh/bitmap.png",
+            "imageBg": "/images/slide6b.webp",
+            "title": "Black mirror"
+          },
+          {
+            "id": 12,
+            "image": "https://a.icons8.com/sXXfraeX/biEREh/bitmap.png",
+            "imageBg": "/images/slide6b.webp",
+            "title": "Black mirror"
+          }
+    ],
+    "moviesTitle":[
+        {
+            "id":1,
+            "image": "https://a.icons8.com/sXXfraeX/qVxXjb/bitmap.png",
+            "description":"Cras ultrices rutrum dapibus. Ut fermentum maximus sem sit amet euismod. Donec eu nisl vel turpis faucibus vestibulum. Sed leo sem, volutpat eu placerat at, blandit sed sapien. Cras bibendum!"
+        },
+        {
+            "id":2,
+            "image": "https://a.icons8.com/sXXfraeX/GDlBNC/bitmap.png",
+            "description":"Cras ultrices rutrum dapibus. Ut fermentum maximus sem sit amet euismod. Donec eu nisl vel turpis faucibus vestibulum. Sed leo sem, volutpat eu placerat at, blandit sed sapien. Cras bibendum!"
+        },
+        {
+            "id":3,
+            "image": "https://a.icons8.com/sXXfraeX/qVxXjb/bitmap.png",
+            "description":"Cras ultrices rutrum dapibus. Ut fermentum maximus sem sit amet euismod. Donec eu nisl vel turpis faucibus vestibulum. Sed leo sem, volutpat eu placerat at, blandit sed sapien. Cras bibendum!"
+        }
+    ],
+    "people":[
+        {
+            "id":1,
+            "image":"https://a.icons8.com/sXXfraeX/mkis9d/bitmap.png            ",
+            "name":"Name Name",
+            "profession": "Actriz"
+        },
+        {
+            "id":2,
+            "image":"https://a.icons8.com/sXXfraeX/LFxwSZ/bitmap.png            ",
+            "name":"Name Name",
+            "profession": "Actor"
+        },
+        {
+            "id":3,
+            "image":"https://a.icons8.com/sXXfraeX/oq7F3f/bitmap.png            ",
+            "name":"Name Name",
+            "profession": "Actor"
+        },
+        {
+            "id":4,
+            "image":"https://a.icons8.com/sXXfraeX/J1Je0c/bitmap.png            ",
+            "name":"Name Name",
+            "profession": "Actor"
+        },
+        {
+            "id":5,
+            "image":"https://a.icons8.com/sXXfraeX/DLICaR/bitmap.png            ",
+            "name":"Name Name",
+            "profession": "Actor"
+        },
+        {
+            "id":6,
+            "image":"https://a.icons8.com/sXXfraeX/mkis9d/bitmap.png            ",
+            "name":"Name Name",
+            "profession": "Actor"
+        },
+        {
+            "id":7,
+            "image":"https://a.icons8.com/sXXfraeX/mkis9d/bitmap.png            ",
+            "name":"Name Name",
+            "profession": "Actor"
+        },
+        {
+            "id":8,
+            "image":"https://a.icons8.com/sXXfraeX/mkis9d/bitmap.png            ",
+            "name":"Name Name",
+            "profession": "Actor"
+        },
+        {
+            "id":9,
+            "image":"https://a.icons8.com/sXXfraeX/mkis9d/bitmap.png            ",
+            "name":"Name Name",
+            "profession": "Actor"
+        },
+        {
+            "id":10,
+            "image":"https://a.icons8.com/sXXfraeX/mkis9d/bitmap.png            ",
+            "name":"Name Name",
+            "profession": "Actor"
+        },
+        {
+            "id":11,
+            "image":"https://a.icons8.com/sXXfraeX/mkis9d/bitmap.png            ",
+            "name":"Name Name",
+            "profession": "Actor"
+        }
+    ]
 }

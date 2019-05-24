@@ -1,0 +1,19 @@
+.item-movie-title {
+  flex: 0 0 19.7%;
+  transition: transform 300ms ease 100ms;
+  margin: 0 2px;
+  position: relative;
+  margin-right: 2vw;
+  display:flex
+}
+.item-movie-title img {
+  height: 15vw;
+  /*width: 100%;*/
+  vertical-align: top;
+}
+
+.item-description{
+  width: 25vw;
+  padding-left: 1.5vw;
+  font-size: 1.2vw;
+}
