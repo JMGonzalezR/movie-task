@@ -66,11 +66,11 @@ function App() {
             </div>
             <div className="flexbox column footer-section">
                 <div className="flexbox row footer-row">
-                    <div>Lorem</div>
+                    <div><i class="far fa-closed-captioning"></i></div>
                     <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod sem ac tortor hendrerit fringilla. Phasellus quis turpis et elit lacinia efficitur. Phasellus viverra purus vel est tincidunt consectetur vitae eu dui.</div>
                 </div>
                 <div className="flexbox row footer-row">
-                    <div>Lorem</div>
+                    <div><i class="fas fa-audio-description"></i></div>
                     <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod sem ac tortor hendrerit fringilla. Phasellus quis turpis et elit lacinia efficitur. Phasellus viverra purus vel est tincidunt consectetur vitae eu dui.</div>
                 </div>
                 

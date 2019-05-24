@@ -84,13 +84,19 @@ class HeaderMovie extends React.Component {
                             <div>
                                 <img alt="quality" src={data.metadata.qualityIcon} className="header-icon"/>
                             </div>
+                            <div>
+                                <img alt="" src={data.metadata.ccIcon} className="header-icon"/>
+                            </div>
+                            <div>
+                                <img alt="" src={data.metadata.adIcon} className="header-icon"/>
+                            </div>
                         </div>
                         <div className="header-description">
                             {data.description}
                         </div>
                         <div className="header-actions flexbox row">
                                 <div >
-                                    <button className="header-button">{data.price}</button>
+                                    <button className="header-button"><i class="fas fa-play"></i></button>
                                     <div className="header-button-title">Title</div>
                                 </div>
                                 <div >
@@ -98,11 +104,11 @@ class HeaderMovie extends React.Component {
                                     <div className="header-button-title">Title</div>
                                 </div>
                                 <div >
-                                    <button className="header-button">{data.price}</button>
+                                    <button className="header-button"><i class="fas fa-plus-circle"></i></button>
                                     <div className="header-button-title">Title</div>
                                 </div>
                                 <div >
-                                    <button className="header-button">{data.price}</button>
+                                    <button className="header-button"><i class="fas fa-ellipsis-h"></i></button>
                                     <div className="header-button-title">Title</div>
                                 </div>
                         </div>
